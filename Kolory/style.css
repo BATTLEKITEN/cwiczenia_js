@@ -1,0 +1,95 @@
+body{
+    margin:0 auto;
+    text-align: center;
+}
+
+#bar{
+    width: 90%;
+    height: 10vh;
+    border: 2px solid black;
+    margin: auto;
+}
+
+#wypelnienie{
+    background-color: red;
+    height: 100%;
+    width: 0%;
+    max-width: 100%;
+}   
+
+#kwadrat{
+    height: 20vh;
+    width: 20vh;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kw{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+#gradient{
+    height: 20vh;
+    width: 20vh;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gradientwypelnienie{
+    background: none;
+    height: 100%;
+    width: 100%;
+}
+
+#rk{
+    float: left;
+    height: 255vh;
+    width: 20vh;
+    border: 2px solid black;
+}
+
+#gk{
+    float: left;
+    height: 255vh;
+    width: 20vh;
+    border: 2px solid black;
+}
+
+#bk{
+    float: left;
+    height: 255vh;
+    width: 20vh;
+    border: 2px solid black;
+}
+
+#paski{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rw{
+    height: 0%;
+    width: 100%;
+    max-height: 100%;
+    background-color: red;
+}
+
+#gw{
+    height: 0%;
+    width: 100%;
+    max-height: 100%;
+    background-color: green;
+}
+
+#bw{
+    height: 0%;
+    width: 100%;
+    max-height: 100%;
+    background-color: blue;
+}
+

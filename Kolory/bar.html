@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kolory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id='bodytest'>
+    
+    <div id='bar'>
+        <div id='wypelnienie'>
+            
+        </div>
+    </div>
+    <h1 id="tekst"></h1>
+    <input type="number" value="0" id="in1" onchange="wypelnij()" min="0" max="100">
+    <button id="button" onclick="wypelnij()">Wypelnij</button>
+
+    <br>
+    <br>
+
+
+    <div id='kwadrat'>
+        <div id='kw'>
+            
+        </div>
+    </div>
+    <br>
+    <h2 id='wynik'></h2>
+    <br>
+    <div id='gradient'>
+        <div id='gradientwypelnienie'>
+        </div>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+    <button id="bkolor1" onclick="koloruj1()">Kolor 1</button>
+    <button id="bkolor2" onclick="koloruj2()">Kolor 2</button>
+    Deg: <input type="number" value="0" id="deg" onchange="gradient()">
+
+
+    <br>
+    <input type="number" value="0" id="r" onchange="koloruj()" min="0" max="255">
+    <input type="number" value="0" id="g" onchange="koloruj()" min="0" max="255">
+    <input type="number" value="0" id="b" onchange="koloruj()" min="0" max="255">
+    <button id="button" onclick="koloruj()">Wypelnij</button>
+    <br>
+    <br>
+
+    <div id=paski>
+        <div id="rk">
+            <div id='rw'>
+            
+            </div>
+        </div>
+        <div id="gk">
+            <div id='gw'>
+            
+            </div>
+        </div>
+        <div id="bk">
+            <div id='bw'>
+            
+            </div>
+        </div>
+
+        <br>
+    </div>
+
+    <script src='progressbar.js'></script>
+</body>
+</html>

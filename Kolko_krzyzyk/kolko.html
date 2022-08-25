@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kolko krzyzyk</title>
+    <link rel="stylesheet" href="kolko.css">
+</head>
+<body>
+    <table cellspacing="0">
+        <tr>
+            <td id='k1' onclick="pole('k1')" onchange="sprawdz()"></td>
+            <td id='k2' onclick="pole('k2')"></td>
+            <td id='k3' onclick="pole('k3')"></td>
+        </tr>
+        <tr>
+            <td id='k4' onclick="pole('k4')"></td>
+            <td id='k5' onclick="pole('k5')"></td>
+            <td id='k6' onclick="pole('k6')"></td>
+        </tr>
+        <tr>
+            <td id='k7' onclick="pole('k7')"></td>
+            <td id='k8' onclick="pole('k8')"></td>
+            <td id='k9' onclick="pole('k9')"></td>
+        </tr>
+    </table>
+    <h1 id="wynikX"></h1><br>
+    <h1 id="wynikO"></h1>
+    <button onclick="czysc()">Wyczyść plansze</button>
+    <button onclick="odnowa()">Graj od nowa</button>
+    <script src="kolko.js"></script>
+</body>
+</html>
